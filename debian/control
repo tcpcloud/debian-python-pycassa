@@ -2,7 +2,7 @@ Source: pycassa
 Maintainer: Filip Pytloun <filip.pytloun@tcpcloud.eu>
 Section: python
 Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9), dh-python, python-pbr
 Standards-Version: 3.9.1
 
 Package: python-pycassa
@@ -16,5 +16,4 @@ Description: Python client library for Apache Cassandra
  3. A batch interface
  4. Simplified version of the Thrift interface
  5. A method to map an existing class to a Cassandra column family
- .
 
