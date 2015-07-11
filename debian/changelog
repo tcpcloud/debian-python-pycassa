@@ -1,4 +1,4 @@
-pycassa (1.11.1-1) unstable; urgency=low
+pycassa (1.11.1-1) trusty; urgency=low
 
   * source package automatically created by stdeb 0.8.2
 
